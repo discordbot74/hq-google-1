@@ -1,1 +1,1 @@
-# hq-google-1
+# hqgooglebot-v.2
