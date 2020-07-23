@@ -220,7 +220,7 @@ def connect_websocket(socket_url, auth_token):
 
             elif message_data["type"] == "gameSummary":
                  winn = message_data['numWinners']
-                 prize = message_data["prize"])     
+                 #prize = message_data["prize"])     
                  embed=discord.Embed(title=f"**__📌 Game Results! 📌__**", description=f"**Winners Announced By HQ Trivia <:emoji_24:696323975311261766>**",color=0xA4FF00)
                  embed.add_field(name="**__🎉 Winners 🎉__**", value=f"**🎊 {winn} 🎊**", inline=True)
                  embed.add_field(name="**__💰 Winnig Amount 💰__**", value=f"**🥳 {prizeMoney} 🥳**", inline=True)
